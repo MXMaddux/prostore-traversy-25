@@ -4,3 +4,5 @@ export const SERVER_URL =
 export const APP_DESCRIPTION =
   process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
   "A modern store built with Next.js";
+export const LATEST_PRODUCT_LIMIT =
+  Number(process.env.LATEST_PRODUCT_LIMIT) || 4;
