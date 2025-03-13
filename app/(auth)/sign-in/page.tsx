@@ -11,7 +11,7 @@ import Image from "next/image";
 import { APP_NAME } from "@/lib/constants";
 import { auth } from "@/auth";
 import { redirect } from "next/navigation";
-import SignUpForm from "./sign-up-form";
+// import SignUpForm from "./sign-up-form";
 
 export const metadata: Metadata = {
   title: "Sign Up",
@@ -48,9 +48,7 @@ const SignUpPage = async (props: {
             Enter your information below to sign up
           </CardDescription>
         </CardHeader>
-        <CardContent className="space-y-4">
-          <SignUpForm />
-        </CardContent>
+        <CardContent className="space-y-4">{/* <SignUpForm /> */}</CardContent>
       </Card>
     </div>
   );
