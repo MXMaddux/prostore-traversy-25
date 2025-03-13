@@ -6,3 +6,7 @@ export const APP_DESCRIPTION =
   "A modern store built with Next.js";
 export const LATEST_PRODUCT_LIMIT =
   Number(process.env.LATEST_PRODUCT_LIMIT) || 4;
+export const signInDefaultValues = {
+  email: "",
+  password: "",
+};
